@@ -1,0 +1,129 @@
+
+/* start Board */
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .list-wrapper {
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 10px;
+    padding: 8px;
+    flex-basis: 20%;
+    min-width: 170px;
+    border-radius: 10px;
+  }
+
+/* End Board */
+
+/* Start List */
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    background: #fff;
+    margin: 0 5px;
+    padding: 8px;
+    border-radius: 2px;
+  }
+  
+  .name-header {
+    text-align: center;
+    padding: 6px 6px;
+    margin: 0;
+  }
+  
+  .name-0, .name-1, .name-2 {
+    background-color: #1d3557;
+    color: #f1faee;
+    border-radius: 7px;
+  }
+  
+  
+  
+/* End List */
+
+/* Start Task Card */
+
+.task-card {
+    background: #f1faee;
+    margin-bottom: 8px;
+    padding: 10px 4px 10px 4px;
+    border-radius: 2px;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+  
+  .task-card:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+/* End Task Card */
+
+/* Start Add Task Form */
+
+.task-input {
+    background: #FAFAFA;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .button {
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+  }
+  
+  .add-button, .cancel-button, .delete-button, .update-button {
+    background-color: #1d3557;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 10%;
+  }
+  
+  .open-add-button {
+    padding: 8px;
+    border-radius: 2px;
+  }
+  
+  .open-add-button a {
+    text-decoration: none;
+  }
+  
+  .list .open-add-button:hover {
+    background: #a8dadc;
+  }
+  
+  .list .open-add-button a {
+    color: #1d3557;
+  }
+
+/* End Add Task Form */
+
+/* Start Update Task */
+
+.open-update-button {
+  border-radius: 2px;
+}
+
+/* End Update Task */
